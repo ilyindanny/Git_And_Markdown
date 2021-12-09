@@ -9,6 +9,7 @@
 - "**git checkout**" - use the code with commands:
     - "branch name" to switch to the other branch
     - "number of commit" to go back to safe point
+    - "-b 'new branch name'" - create new branch and go to new branch
 - "**git status**" - show git status about something to save.
 - "**git diff**" - show the different between last commit and new data.
 - "**git branch**" - show names of branches. Or use the code with command:
