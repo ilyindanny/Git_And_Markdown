@@ -17,4 +17,4 @@
     - "-d "branch name"" - delete the branch
 - "**git merge**" - use the code with command:
     - "branch name" - to merge data from "branch name" to current branch.
-- "**git push**" - push data to Github. Also use "**git push** -u origin 'branch name'" if you want to push new branch to Github, wich isn't on Github yet.
+- "**git push**" - push data to Github. Also use "**git push -u origin 'branch name'**" if you want to push new branch to Github, wich isn't on Github yet.
