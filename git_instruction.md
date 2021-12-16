@@ -54,11 +54,6 @@ We can create some branches to have some ways to working. So we have protection 
 Use these commands:
 
 - "**git branch**" - show names of branches. Or use the code with command:
-    - "new branch name" to create new branch
-    - "-d "branch name"" - delete the branch
-- "**git merge**" - use the code with command:
-    - "branch name" - to merge data from "branch name" to current branch.
-- "**git push**" - push data to Github. Also use "**git push -u origin 'branch name'**" if you want to push new branch to Github, wich isn't on Github yet.
     - "**git branch** 'new branch name'" to create new branch
     - "**git branch** -d 'branch name'" - delete the branch
 
@@ -98,10 +93,13 @@ Or use the command, if you want to clone repository from Github:
 Then you can use next commands:
 
 - "**git push** origin master" - to push to Github brench 'master'
+- Also use "**git push** -u origin 'branch name'" if you want to push new branch to Github, wich isn't on Github yet.
+- "**git push**" - push data to Github.
 - "**git pull** origin master" - tu pull lical copy ti Github.
 
 Warning!
-If you have at the same time different commit version in server and local computer, oyu need first run command "**git pull**" to merge two versions, then you will can ri=un "**git push".
+If you have at the same time different commit version in server and local computer, oyu need first run command "**git pull**" to merge two versions, then you will can ri=un "**git push**".
+
 
 
 ## Collaboration:
