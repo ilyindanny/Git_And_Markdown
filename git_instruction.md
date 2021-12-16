@@ -75,7 +75,8 @@ Use "git branch -D 'name branch'" to delete the branch.
 
 # Remote commands:
 
-## Working whit your own repository 
+## Working whit your own repository
+---
 
 You have two general ways to get remote repository. First is to create a local version and push it on server. Second way is make remote repositoty at server and then pull it to local system.
 
@@ -103,10 +104,14 @@ If you have at the same time different commit version in server and local comput
 
 
 ## Collaboration:
+---
 
 You can get some other autors repository and add it in your account. Press button **Fork** in home page of the repository. Then clone the repo on your PC.
 
 Make new commits and pull it. Then pres buttom **Pull requests** on Github.
 
+
+In conclusion
+---
 
 For more infirmation please get GeekBrains course "Developer" and enjoy yourself!
