@@ -98,7 +98,7 @@ Then you can use next commands:
 - "**git pull** origin master" - tu pull lical copy ti Github.
 
 Warning!
-If you have at the same time different commit version in server and local computer, oyu need first run command "**git pull**" to merge two versions, then you will can ri=un "**git push**".
+If you have at the same time different commit version in server and local computer, you need first run command "**git pull**" to merge two versions, then you will can run "**git push**".
 
 
 
