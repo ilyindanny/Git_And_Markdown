@@ -30,6 +30,10 @@ Other ways to use the command "**git checkout**":
     - "**git checkout** 'branch name'" to switch to the other branch
     - "**git checkout** -b 'new branch name'" - create new branch and go to new branch
 
+Delete from tracking:
+- "**git rm -r --cached** 'folder name''" (delete from local, but keeping on server?)
+- "**git add -u** 'folder name'"
+
 
 ## Use some time comand "**git status**" to check current status of git synchronization:
 - "**git status**" - show git status about something to save.
