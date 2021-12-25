@@ -58,6 +58,7 @@ We can create some branches to have some ways to working. So we have protection 
 Use these commands:
 
 - "**git branch**" - show names of branches. Or use the code with command:
+    - '**git branch -M master**" rename branch
     - "**git branch** 'new branch name'" to create new branch
     - "**git branch** -d 'branch name'" - delete the branch
 
@@ -89,7 +90,7 @@ Make repo as you do it  every time and commit it.
 Then you need to go to Github to make there repository (keep it clear, do nothing into Github repo). Copy link and come back to local computer.
 Use the command:
 
-- "**git remote** add origin  <REMOTE_URL>" (At first time git will ask you password to connect Github account)
+- "**git remote** add origin  "<REMOTE_URL>" (At first time git will ask you password to connect Github account)
 
 Or use the command, if you want to clone repository from Github:
 
