@@ -111,7 +111,7 @@ or
 ## Code
 ---
 
-Type like: input ` (it is left key with symbol ~) before and after the code.
+Type like: input ` (it is left-side key with symbol ~) before and after the code.
 
 Example:
 
@@ -148,3 +148,56 @@ Example:
 ---
 
 **Take care of yourself!**
+
+.
+
+.
+
+.
+
+
+
+
+# From GB.RU:
+
+
+## Оформление текста
+
+
+**жирный**
+__жирный__
+*курсив*
+_курсив_
+~~перечёркнутый текст~~
+
+
+## Списки
+
+* Generic list item
+* Generic list item
+* Generic list item
+- Generic list item
+- Generic list item
+- Generic list item
+1. Numbered list item
+2. Numbered list item
+3. Numbered list item
+
+## Цитаты
+
+
+> This is a quote.
+> It can span multiple lines!
+Код
+`var example = "hello!";`
+
+## Мультистрочный код:
+
+```
+var example = "hello!";
+alert(example);
+```
+
+## Ссылки
+
+[Title](https://gb.ru)

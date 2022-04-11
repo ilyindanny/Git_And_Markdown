@@ -14,17 +14,33 @@ Git is one of the many ways to realize version control systems. This is the most
 To prepare repository, open a folder for repository and go to command "**git init**" (the folder will be inicialized. Now there is one more folder with name ".git"). All right, you have repository.
 
 
-## Switch between commits
+## Commit
 ---
 
 We can make lot of branch. Then we can go to new branch ahd format documets into the branch and save new data into the branch (the new data will be invisible in other branches). But next time we can merge some branches in one branch (read head Merge).
 ### add commit:
-- First add a file to git ("**git add** 'file name'"). You  can add some more files at once, just type the names and key 'space' between.
+- At first add a file to git ("**git add** 'file name'"). You  can add some more files at once, just type the names and key 'space' between.
+- **git add -A** : Stages Everything.
+- **git add -u** : Stages only Modified Files (without untracked files!).
+- **git add .** : Stages everything, without Deleted Files.
+
 - Then type command: "**git commit** -m 'message'". "-m" it means message for other developers, don'b be shy, write more about your commit.
+### unstage:
+- use "**git restore** --staged <file>..." to unstage.
+
+- "**git commit** -a" - it's like 'git add -u' + 'git commit"
+- "**git commit** -am" - it's like 'git add -u' + 'git commit -m"
+
+### rewrite commit or rename one:
+- Type "--amend git" (mayby with "-m 'message'") to rename commit or rewrite if you have already changed something.
 ### checkout to commit:
 - To go to some point of commit set the commands:
     - Type "git log" command to see hash names of commits
     - Type "git checkout 'five first symbols of commit hash name'"
+
+    - "**git revert** <hash>" - checkout to old commit as a new commit.
+
+    - "**git restore** <file>" - reset file.
 
 Other ways to use the command "**git checkout**":
     - "**git checkout** 'branch name'" to switch to the other branch
@@ -32,7 +48,7 @@ Other ways to use the command "**git checkout**":
 
 Delete from tracking:
 - "**git rm -r --cached** 'folder name''" (delete from local, but keeping on server?)
-- "**git add -u** 'folder name'"
+- "**git add -u** 'folder name'" - ???
 
 
 ## Use some time comand "**git status**" to check current status of git synchronization:
@@ -96,12 +112,15 @@ Or use the command, if you want to clone repository from Github:
 
 - "**git clone** <REMOTE_URL>"
 
+- "**git remote -v** - show if you already connected to repository.
+
 Then you can use next commands:
 
 - "**git push** origin master" - to push to Github brench 'master'
 - Also use "**git push** -u origin 'branch name'" if you want to push new branch to Github, wich isn't on Github yet.
 - "**git push**" - push data to Github.
 - "**git pull** origin master" - tu pull lical copy ti Github.
+-"**git push origin** -d <branch name>" - delete the remote branch from hub.
 
 Warning!
 If you have at the same time different commit version in server and local computer, you need first run command "**git pull**" to merge two versions, then you will can run "**git push**".
