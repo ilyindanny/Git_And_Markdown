@@ -120,7 +120,7 @@ Then you can use next commands:
 - Also use "**git push** -u origin 'branch name'" if you want to push new branch to Github, wich isn't on Github yet.
 - "**git push**" - push data to Github.
 - "**git pull** origin master" - tu pull lical copy ti Github.
-- "**git push origin** -d <branch name>" - delete the remote branch from hub.
+- "**git push origin** -d <branch_name>" - delete the remote branch from hub.
 
 Warning!
 If you have at the same time different commit version in server and local computer, you need first run command "**git pull**" to merge two versions, then you will can run "**git push**".
